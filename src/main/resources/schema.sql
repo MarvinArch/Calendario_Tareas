@@ -1,0 +1,8 @@
+CREATE TABLE tarea(
+  id  INTEGER NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  complete BOOLEAN NULL,
+  date_Delivery DATE NULL,
+  description TEXT NULL,
+  CONSTRAINT PK_TAREA PRIMARY KEY(id)
+);
